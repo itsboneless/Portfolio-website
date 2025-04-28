@@ -714,26 +714,26 @@ button:active {
 }
 
 .card-stack-container {
+  padding-top: 64px;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
   width: 100vw;
   max-width: 100%;
-  height: 70vh;
-  min-height:60em;
+  height: fit-content;
+  min-height: 35em;
   position: relative;
   overflow: visible;
   background-color: white;
   border-radius: 20px;
   transition: background-color 0.4s ease;
-
 }
 
 .card-stack {
   position: relative;
-  height: 60%;
+  height: fit-content;
   max-width: 100%;
   width: 100vw;
 }
@@ -742,7 +742,7 @@ button:active {
 .card {
   position: absolute;
   top: 0;
-  height: 35em;
+  height: 18em;
   aspect-ratio: 1√2;
   border-radius: 20px;
   overflow: hidden;
