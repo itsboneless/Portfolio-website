@@ -1,24 +1,7 @@
 import './style.css'
 
 
-Fancybox.bind("[data-fancybox='pdfs']", {
-  Toolbar: {
-    display: [
-      "zoom",
-      "close",
-      "fullscreen",
-    ],
-  },
-  Thumbs: false,
-  type: "iframe", // Optional fallback
-  iframe: {
-    preload: false,
-    css: {
-      width: '100%',
-      height: '90vh',
-    },
-  },
-});
+
 
 window.onload = function() {
     
@@ -43,15 +26,7 @@ window.onload = function() {
   };
 
 
-  window.addEventListener('scroll', () => {
-    const scrolled = window.scrollY;
-    const image = document.querySelector('.parallax-img');
   
-    if (image) {
-      const translateY = Math.min(scrolled * 0.3, -100); // Cap at 100px
-      image.style.transform = `translate(-50%, ${translateY}px)`;
-    }
-  });
 
 const apiKey = import.meta.env.VITE_API_KEY;
 let weather = {
