@@ -972,7 +972,7 @@ padding: 100px 0 100px 0;
     grid-row: auto;
 }
 .grid-item:nth-child(3) {
-    grid-column: 1/4;
+    grid-column: span 4;
     grid-row: auto;
   
 }
@@ -1002,7 +1002,7 @@ padding: 100px 0 100px 0;
 }
 .grid-item:nth-child(10) {
     grid-column: 1/4; 
-    grid-row: 10/15;
+    grid-row: auto;
 }
 .grid-item:nth-child(11) {
     grid-column: 1/4; 
