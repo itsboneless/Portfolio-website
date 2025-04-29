@@ -2,147 +2,143 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jordan</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordan</title>
 
-    <!-- CSS and Fonts -->
-    <link rel="stylesheet" href="/src/style.css">
-    <link rel="icon" type="image/png" href="/src/images/logo.png">
-    <link rel="preload" href="/src/main.js" as="script">
-    <link rel="preload" href="/src/fonts/trade-gothic-lt-std.otf" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/src/fonts/Dirtyline.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/src/style.css">
+  <link rel="icon" type="image/png" href="/src/images/logo.png">
 
-    <!-- Images Preload -->
-    <link rel="preload" href="/src/images/car poster-01 copy.jpg" as="image">
-    <link rel="preload" href="/src/images/THE MOVE copy.jpg" as="image">
-    <link rel="preload" href="/src/images/brz.webp" as="image">
-    <link rel="preload" href="/src/images/clay logo (1)-15.jpg" as="image">
-    <link rel="preload" href="/src/images/pool copy.jpg" as="image">
-    <link rel="preload" href="/src/images/rsc.png" as="image">
-    <link rel="preload" href="/src/images/jet.jpg" as="image">
-    <link rel="preload" href="/src/images/RED WAVE-02 copy.jpg" as="image">
-    <link rel="preload" href="/src/images/porsche copy.jpg" as="image">
-    <link rel="preload" href="/src/images/car poster-01.jpg" as="image">
+  <link rel="preload" href="/src/main.js" as="script">
+  <link rel="preload" href="/src/fonts/trade-gothic-lt-std.otf" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/src/fonts/Dirtyline.ttf" as="font" type="font/ttf" crossorigin>
 
-    <!-- Fancybox -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 </head>
 
 <body>
-    <header class="menu">
-        <div class="navbar">
-            <a href="/index.html#top">Home</a>
-            <a href="#" onclick="openModal('modal10'); return false;">About</a>
-            <a href="/projects.html">Projects</a>
-            <a href="/CV.html">CV</a>
-        </div>
-    </header>
+  <header class="menu">
+    <div class="navbar">
+      <a href="/index.html#top">Home</a>
+      <a href="#" onclick="openModal('modal10'); return false;">About</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/CV.html">CV</a>
+    </div>
+  </header>
 
-    <div id="content">
-        <div class="projects"></div>
-        <div class="grid-container">
-            <div class="grid">
-                <!-- Grid Items Start -->
-                <div onclick="openModal('modal1')" class="grid-item">
-                    <h2 class="Name">UI UX Internship</h2>
-                    <h2 class="Date">2024</h2>
-                    <img src="/src/images/simptel copy.jpg">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal2')" class="grid-item">
-                    <h2 class="Name">Jony Ive ode website</h2>
-                    <h2 class="Date">2025</h2>
-                    <img src="/src/images/jony-project.jpg">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal4')" class="grid-item">
-                    <h2 class="Name">AIM Website redesign</h2>
-                    <h2 class="Date">2024</h2>
-                    <img src="/src/images/aimx2.jpg">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal5')" class="grid-item">
-                    <h2 class="Name">Artist Website</h2>
-                    <h2 class="Date">2022</h2>
-                    <img src="/src/images/maaike.jpg">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal6')" class="grid-item">
-                    <h2 class="Name">Brandguide</h2>
-                    <h2 class="Date">2021</h2>
-                    <img src="/src/images/unx.png">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal7')" class="grid-item">
-                    <h2 class="Name">Pets</h2>
-                    <h2 class="Date">2021</h2>
-                    <img src="/src/images/petica.jpg">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal8')" class="grid-item">
-                    <h2 class="Name">React Calculator</h2>
-                    <h2 class="Date">2022</h2>
-                    <img src="/src/images/calc.png">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal9')" class="grid-item">
-                    <h2 class="Name">Kirby CSS</h2>
-                    <h2 class="Date">2021</h2>
-                    <img src="/src/images/kirby.png">
-                    <button class="more-button">View Project</button>
-                </div>
-                <div onclick="openModal('modal10')" class="grid-item">
-                    <h2 class="Name">Personal Projects</h2>
-                    <img src="/src/images/about.png">
-                    <button class="more-button">About Me</button>
-                </div>
-                <div onclick="openModal('modal10')" class="grid-item">
-                    <h2 class="Name">About Me</h2>
-                    <img src="/src/images/me copy.jpg">
-                    <button class="more-button">About Me</button>
-                </div>
-                <!-- Grid Items End -->
-            </div>
+  <div id="content">
+    <div class="projects"></div>
+    <div class="grid-container">
+      <div class="grid">
+
+        <div onclick="openModal('modal1')" class="grid-item">
+          <h2 class="Name">UI UX Internship</h2>
+          <h2 class="Date">2024</h2>
+          <img src="/src/images/simptel copy.jpg" alt="UI UX Internship">
+          <button class="more-button" onclick="openModal('modal1')">View Project</button>
         </div>
+
+        <div onclick="openModal('modal2')" class="grid-item">
+          <h2 class="Name">Jony Ive ode website</h2>
+          <h2 class="Date">2025</h2>
+          <img src="/src/images/jony-project.jpg" alt="Jony Ive Ode Website">
+          <button class="more-button" onclick="openModal('modal2')">View Project</button>
+        </div>
+
+        <div onclick="openModal('modal4')" class="grid-item">
+          <h2 class="Name">AIM Website redesign</h2>
+          <h2 class="Date">2024</h2>
+          <img src="/src/images/aimx2.jpg" alt="AIM Website redesign">
+          <button class="more-button" onclick="openModal('modal4')">View Project</button>
+        </div>
+
+        <div onclick="openModal('modal5')" class="grid-item">
+          <h2 class="Name">Artist Website</h2>
+          <h2 class="Date">2022</h2>
+          <img src="/src/images/maaike.jpg" alt="Artist Website">
+          <button class="more-button" onclick="openModal('modal5')">View Project</button>
+        </div>
+
+        <div onclick="openModal('modal6')" class="grid-item">
+          <h2 class="Name">Brandguide</h2>
+          <h2 class="Date">2021</h2>
+          <img src="/src/images/unx.png" alt="Brandguide">
+          <button class="more-button" onclick="openModal('modal6')">View Project</button>
+        </div>
+
+        <div onclick="openModal('modal7')" class="grid-item">
+          <h2 class="Name">Pets</h2>
+          <h2 class="Date">2021</h2>
+          <img src="/src/images/petica.jpg" alt="Pets">
+          <button class="more-button" onclick="openModal('modal7')">View Project</button>
+        </div>
+
+        <div onclick="openModal('modal8')" class="grid-item">
+          <h2 class="Name">React Calculator</h2>
+          <h2 class="Date">2022</h2>
+          <img src="/src/images/calc.png" alt="React Calculator">
+          <button class="more-button" onclick="openModal('modal8')">View Project</button>
+        </div>
+
+        <div onclick="openModal('modal9')" class="grid-item">
+          <h2 class="Name">Kirby CSS</h2>
+          <h2 class="Date">2021</h2>
+          <img src="/src/images/kirby.png" alt="Kirby CSS">
+          <button class="more-button" onclick="openModal('modal9')">View Project</button>
+        </div>
+
+        <div onclick="openModal('modal10')" class="grid-item">
+          <h2 class="Name">Personal Projects</h2>
+          <img src="/src/images/about.png" alt="Personal Projects">
+          <button class="more-button" onclick="openModal('modal10')">About Me</button>
+        </div>
+
+        <div onclick="openModal('modal10')" class="grid-item">
+          <h2 class="Name">About Me</h2>
+          <img src="/src/images/me copy.jpg" alt="About Me">
+          <button class="more-button" onclick="openModal('modal10')">About Me</button>
+        </div>
+
+      </div>
     </div>
 
     <div id="loader" style="display: none;">Loading...</div>
+  </div>
 
-    <!-- JavaScript -->
-    <script>
+  <script type="module" src="/src/main.js"></script>
+  <script>
     window.addEventListener('scroll', () => {
-        if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
-            loadMoreContent();
-        }
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100) {
+        loadMoreContent();
+      }
     });
 
     function loadMoreContent() {
-        const loader = document.getElementById('loader');
-        loader.style.display = 'block';
+      const loader = document.getElementById('loader');
+      loader.style.display = 'block';
 
-        setTimeout(() => {
-            const grid = document.querySelector('.grid');
-            const items = Array.from(grid.children).slice(0, 10);
-            const shuffled = items.sort(() => Math.random() - 0.5);
+      setTimeout(() => {
+        const grid = document.querySelector('.grid');
+        const items = Array.from(grid.children).slice(0, 10);
+        const shuffled = items.sort(() => Math.random() - 0.5);
 
-            shuffled.forEach(item => {
-                const clone = item.cloneNode(true);
-                if (item.classList.contains('span-2')) {
-                    clone.classList.add('span-2');
-                } else {
-                    clone.classList.remove('span-2');
-                }
-                grid.appendChild(clone);
-            });
-            loader.style.display = 'none';
-        }, 500);
+        shuffled.forEach(item => {
+          const clone = item.cloneNode(true);
+          if (item.classList.contains('span-2')) {
+            clone.classList.add('span-2');
+          } else {
+            clone.classList.remove('span-2');
+          }
+          grid.appendChild(clone);
+        });
+
+        loader.style.display = 'none';
+      }, 500);
     }
-    </script>
+  </script>
 
-    <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>
